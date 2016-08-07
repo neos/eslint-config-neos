@@ -1,0 +1,23 @@
+import test from 'ava';
+import isPlainObj from 'is-plain-obj';
+import eslint from 'eslint';
+import tempWrite from 'temp-write';
+
+const fixture = `'use strict';\nconst x = true;\n\nif (x) {\n    console.log();\n}\n`;
+
+function runEslint(str, conf) {
+    const linter = new eslint.CLIEngine({
+        useEslintrc: false,
+        configFile: tempWrite.sync(JSON.stringify(conf))
+    });
+
+    return linter.executeOnText(str).results[0].messages;
+}
+
+test('main', t => {
+    const conf = require('./index.js');
+
+    t.true(isPlainObj(conf));
+    t.true(isPlainObj(conf.rules));
+    t.is(runEslint(fixture, conf).length, 0);
+});
