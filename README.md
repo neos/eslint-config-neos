@@ -20,7 +20,7 @@ npm i -D @neos-project/eslint-config-neos
 
 ## Usage
 Add the following line to your `.eslintrc` file.
-```
+```json
 {
     "extends": "@neos-project/eslint-config-neos"
 }
