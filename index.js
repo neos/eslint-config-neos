@@ -5,7 +5,8 @@ module.exports = {
   plugins: [
       'babel',
       'react',
-      'jsx-a11y'
+      'jsx-a11y',
+      'import'
   ],
   extends: [
     'xo-space/esnext',
