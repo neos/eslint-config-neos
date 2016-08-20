@@ -35,8 +35,10 @@
     "temp-write": "^2.1.0"
   },
   "peerDependencies": {
+    "eslint": "^3.1.1"
+  },
+  "dependencies": {
     "babel-eslint": "^6.0.4",
-    "eslint": "^3.1.1",
     "eslint-config-xo-react": "^0.9.0",
     "eslint-config-xo-space": "^0.14.0",
     "eslint-plugin-babel": "^3.1.0",
