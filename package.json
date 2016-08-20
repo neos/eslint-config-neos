@@ -45,6 +45,6 @@
   "license": "GPL-3.0+",
   "repository": {
     "type": "git",
-    "url": "https://github.com/neos/react-ui-components.git"
+    "url": "https://github.com/neos/eslint-config-neos.git"
   }
 }
