@@ -36,7 +36,6 @@ module.exports = {
     'jsx-a11y/aria-proptypes': 2,
     'jsx-a11y/aria-role': 2,
     'jsx-a11y/aria-unsupported-elements': 2,
-    'jsx-a11y/href-no-hash': [ 2, [ 'Link', 'Anchor' ] ],
     'jsx-a11y/img-has-alt': [ 2, 'Image' ],
     'jsx-a11y/img-redundant-alt': 2,
     'jsx-a11y/label-has-for': [ 2, 'Label' ],
