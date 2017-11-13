@@ -13,7 +13,9 @@ module.exports = {
     'xo-react/space'
   ],
   env: {
-    browser : true
+    node: true,
+    browser: true,
+    jest: true
   },
   rules: {
     //
