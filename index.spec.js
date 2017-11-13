@@ -1,7 +1,7 @@
-import test from 'ava';
-import isPlainObj from 'is-plain-obj';
-import eslint from 'eslint';
-import tempWrite from 'temp-write';
+const isPlainObj = require('is-plain-obj');
+const eslint = require('eslint');
+const tempWrite = require('temp-write');
+const conf = require('./index.js');
 
 const fixture = `'use strict';\nconst x = true;\n\nif (x) {\n    console.log();\n}\n`;
 
@@ -14,10 +14,10 @@ function runEslint(str, conf) {
     return linter.executeOnText(str).results[0].messages;
 }
 
-test('main', t => {
-    const conf = require('./index.js');
-
-    t.true(isPlainObj(conf));
-    t.true(isPlainObj(conf.rules));
-    t.is(runEslint(fixture, conf).length, 0);
+describe('eslint config', () => {
+    it('is a valid eslint config object', () => {
+        expect(isPlainObj(conf)).toBe(true);
+        expect(isPlainObj(conf.rules)).toBe(true);
+        expect(runEslint(fixture, conf).length).toBe(0);
+    })
 });
