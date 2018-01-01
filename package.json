@@ -12,7 +12,7 @@
     "babel-core": "^6.13.2",
     "babel-eslint": "^8.1.2",
     "babel-preset-es2015": "^6.13.2",
-    "eslint": "^4.14.0",
+    "eslint": "^4.5.0",
     "eslint-config-xo-react": "^0.9.0",
     "eslint-config-xo-space": "^0.14.0",
     "eslint-plugin-babel": "^3.1.0",
@@ -23,7 +23,7 @@
     "temp-write": "^2.1.0"
   },
   "peerDependencies": {
-    "eslint": "^4.14.0"
+    "eslint": "^4.5.0"
   },
   "dependencies": {
     "babel-eslint": "^8.1.2",
