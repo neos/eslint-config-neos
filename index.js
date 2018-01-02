@@ -29,7 +29,8 @@ module.exports = {
     //
     'react/jsx-indent-props': [2, 4],
     'react/jsx-indent': [2, 4],
-    'indent': [2, 4, {SwitchCase: 1}],
+    'indent': 'off',
+    'indent-legacy': [2, 4, {SwitchCase: 1}],
 
     //
     // Enforce a basic level of accessibility.
