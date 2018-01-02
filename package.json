@@ -16,7 +16,6 @@
     "eslint-config-xo-react": "^0.9.0",
     "eslint-config-xo-space": "^0.14.0",
     "eslint-plugin-babel": "^3.1.0",
-    "eslint-plugin-import": "^1.13.0",
     "eslint-plugin-jsx-a11y": "^2.0.0",
     "is-plain-obj": "^1.1.0",
     "temp-write": "^2.1.0"
@@ -29,7 +28,7 @@
     "eslint-config-xo-react": "^0.15.0",
     "eslint-config-xo-space": "^0.17.0",
     "eslint-plugin-babel": "^3.1.0",
-    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^2.0.0",
     "eslint-plugin-react": "^7.5.1",
     "jest": "^21.2.1"
