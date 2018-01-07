@@ -9,8 +9,7 @@ module.exports = {
       'import'
   ],
   extends: [
-    'xo-space/esnext',
-    'xo-react/space'
+    'xo-space/esnext'
   ],
   env: {
     node: true,
