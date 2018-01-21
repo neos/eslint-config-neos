@@ -9,8 +9,7 @@ module.exports = {
       'import'
   ],
   extends: [
-    'xo-space/esnext',
-    'xo-react/space'
+    'xo-space/esnext'
   ],
   env: {
     node: true,
@@ -35,18 +34,30 @@ module.exports = {
     //
     // Enforce a basic level of accessibility.
     //
-    'jsx-a11y/aria-props': 2,
-    'jsx-a11y/aria-proptypes': 2,
-    'jsx-a11y/aria-role': 2,
-    'jsx-a11y/aria-unsupported-elements': 2,
-    'jsx-a11y/img-has-alt': [ 2, 'Image' ],
-    'jsx-a11y/img-redundant-alt': 2,
-    'jsx-a11y/label-has-for': [ 2, 'Label' ],
-    'jsx-a11y/mouse-events-have-key-events': 2,
-    'jsx-a11y/no-access-key': 2,
-    'jsx-a11y/onclick-has-role': 1,
-    'jsx-a11y/role-has-required-aria-props': 2,
-    'jsx-a11y/role-supports-aria-props': 2,
-    'jsx-a11y/tabindex-no-positive': 1
+    'jsx-a11y/aria-props': 'error',
+    'jsx-a11y/aria-proptypes': 'error',
+    'jsx-a11y/aria-role': 'error',
+    'jsx-a11y/aria-unsupported-elements': 'error',
+    'jsx-a11y/alt-text': [ 'error', {components: ['Image']} ],
+    'jsx-a11y/img-redundant-alt': 'error',
+    'jsx-a11y/label-has-for': ['error', {components: ['label']}],
+    'jsx-a11y/mouse-events-have-key-events': 'error',
+    'jsx-a11y/no-access-key': 'error',
+    'jsx-a11y/no-static-element-interactions': [
+      'warn',
+      {
+        handlers: [
+          'onClick',
+          'onMouseDown',
+          'onMouseUp',
+          'onKeyPress',
+          'onKeyDown',
+          'onKeyUp',
+        ],
+      },
+    ],
+    'jsx-a11y/role-has-required-aria-props': 'error',
+    'jsx-a11y/role-supports-aria-props': 'error',
+    'jsx-a11y/tabindex-no-positive': 'warn'
   }
 }
