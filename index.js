@@ -18,7 +18,7 @@ module.exports = {
   },
   rules: {
     // After eslint 3.3 lot of rules has changed or was introduced
-    'no-unused-vars': 'warn',
+    'no-unused-vars': 'error',
     'capitalized-comments': 'warn',
     'new-cap': 'warn',
     'quote-props': 'warn',
@@ -33,6 +33,12 @@ module.exports = {
     //
     'react/jsx-boolean-value': 0,
     'react/jsx-filename-extension': 0,
+
+    //
+    // Necessary to remove no-unused-vars
+    //
+    'react/jsx-uses-react': 1,
+    'react/jsx-uses-vars': 1,
 
     //
     // Switch to a 4 space indentation.
