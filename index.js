@@ -19,7 +19,7 @@ module.exports = {
   rules: {
     // After eslint 3.3 lot of rules has changed or was introduced
     'no-unused-vars': 'error',
-    'capitalized-comments': 'warn',
+    'capitalized-comments': 'error',
     'new-cap': 'warn',
     'quote-props': 'warn',
     'func-names': 'warn',
