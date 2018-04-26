@@ -25,7 +25,7 @@ module.exports = {
     'func-names': 'warn',
     'valid-typeof': ['error', { requireStringLiterals: false }],
     'prefer-promise-reject-errors': ['warn', {'allowEmptyReject': true}],
-    'no-useless-return': 'warn',
+    'no-useless-return': 'error',
     'no-self-assign': 'warn',
 
     //
