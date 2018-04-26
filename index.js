@@ -22,7 +22,7 @@ module.exports = {
     'capitalized-comments': 'off',
     'new-cap': 'warn',
     'quote-props': 'warn',
-    'func-names': 'warn',
+    'func-names': 'error',
     'valid-typeof': ['error', { requireStringLiterals: false }],
     'prefer-promise-reject-errors': ['warn', {'allowEmptyReject': true}],
     'no-useless-return': 'warn',
