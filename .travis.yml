@@ -1,5 +1,7 @@
 sudo: false
 language: node_js
+node_js:
+  - "node"
 cache:
   directories:
     - node_modules
@@ -11,3 +13,4 @@ before_install:
 install:
   - yarn cache clean
   - yarn install --production --ignore-scripts --prefer-offline
+  - yarn global add jest-cli
