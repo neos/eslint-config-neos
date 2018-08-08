@@ -28,6 +28,10 @@
     "eslint-plugin-react": "^7.10.0",
     "jest": "^23.4.2"
   },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   "license": "GPL-3.0+",
   "repository": {
     "type": "git",
