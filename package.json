@@ -4,8 +4,8 @@
   "main": "./index.js",
   "version": "2.1.4",
   "scripts": {
-    "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test": "node node_modules/jest/bin/jest.js --coverage --runInBand",
+    "test:watch": "node node_modules/jest/bin/jest.js --watch --runInBand"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
