@@ -1,5 +1,5 @@
 # @neos-project/eslint-config-neos
-[![Build Status](https://travis-ci.org/neos/eslint-config-neos.svg?branch=master)](https://travis-ci.org/neos/eslint-config-neos) [![Dependency Status](https://david-dm.org/neos/eslint-config-neos.svg)](https://david-dm.org/neos/eslint-config-neos) [![peerDependencies Status](https://david-dm.org/neos/eslint-config-neos/peer-status.svg)](https://david-dm.org/neos/eslint-config-neos?type=peer) [![devDependency Status](https://david-dm.org/neos/eslint-config-neos/dev-status.svg)](https://david-dm.org/neos/eslint-config-neos#info=devDependencies&view=table) 
+[![Build Status](https://travis-ci.org/neos/eslint-config-neos.svg?branch=master)](https://travis-ci.org/neos/eslint-config-neos) [![Dependency Status](https://david-dm.org/neos/eslint-config-neos.svg)](https://david-dm.org/neos/eslint-config-neos) [![peerDependencies Status](https://david-dm.org/neos/eslint-config-neos/peer-status.svg)](https://david-dm.org/neos/eslint-config-neos?type=peer) [![devDependency Status](https://david-dm.org/neos/eslint-config-neos/dev-status.svg)](https://david-dm.org/neos/eslint-config-neos#info=devDependencies&view=table)
 [![Slack](http://slack.neos.io/badge.svg)](http://slack.neos.io) [![Forum](https://img.shields.io/badge/forum-Discourse-39c6ff.svg)](https://discuss.neos.io/) [![Twitter](https://img.shields.io/twitter/follow/neoscms.svg?style=social)](https://twitter.com/NeosCMS)
 
 > ESLint shareable config based on XO with a 4-space indent for the neos project.
@@ -32,8 +32,7 @@ Add the following line to your `.eslintrc` file.
 
 ## Contributing
 #### Requirements
-* Node in version `^6.3.3`
-* NPM in version `^3.10.3`
+* Node in version `^8.11.0`
 
 ## License
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
