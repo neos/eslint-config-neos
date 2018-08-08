@@ -4,8 +4,8 @@
   "main": "./index.js",
   "version": "2.1.4",
   "scripts": {
-    "test": "npm run jest -- --coverage",
-    "test:watch": "npm run jest -- --watch",
+    "test": "yarn run jest --coverage",
+    "test:watch": "yarn run jest --watch",
     "jest": "jest index.spec.js"
   },
   "devDependencies": {
