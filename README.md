@@ -1,6 +1,31 @@
 # @neos-project/eslint-config-neos
-[![Build Status](https://travis-ci.org/neos/eslint-config-neos.svg?branch=master)](https://travis-ci.org/neos/eslint-config-neos) [![Dependency Status](https://david-dm.org/neos/eslint-config-neos.svg)](https://david-dm.org/neos/eslint-config-neos) [![peerDependencies Status](https://david-dm.org/neos/eslint-config-neos/peer-status.svg)](https://david-dm.org/neos/eslint-config-neos?type=peer) [![devDependency Status](https://david-dm.org/neos/eslint-config-neos/dev-status.svg)](https://david-dm.org/neos/eslint-config-neos#info=devDependencies&view=table)
-[![Slack](http://slack.neos.io/badge.svg)](http://slack.neos.io) [![Forum](https://img.shields.io/badge/forum-Discourse-39c6ff.svg)](https://discuss.neos.io/) [![Twitter](https://img.shields.io/twitter/follow/neoscms.svg?style=social)](https://twitter.com/NeosCMS)
+
+<p align="center">
+  <a href="https://travis-ci.org/neos/eslint-config-neos">
+    <img alt="Travis CI Build Status" src="https://img.shields.io/travis/neos/eslint-config-neos/master.svg?style=flat-square&label=Travis+CI">
+  </a>
+  <a href="https://www.npmjs.com/package/prettier">
+    <img alt="npm version" src="https://img.shields.io/npm/v/prettier.svg?style=flat-square">
+  </a>
+  <a href="https://david-dm.org/neos/eslint-config-neos">
+    <img alt="Dependency Status" src="https://david-dm.org/neos/eslint-config-neos.svg?style=flat-square&label=DependencyStatus">
+  </a>
+  <a href="https://david-dm.org/neos/eslint-config-neos">
+    <img alt="Peer Status" src="https://david-dm.org/neos/eslint-config-neos/peer-status.svg?style=flat-square&label=Peer">
+  </a>
+  <a href="https://david-dm.org/neos/eslint-config-neos">
+    <img alt="Dev Dependency Status" src="https://david-dm.org/neos/eslint-config-neos/dev-status.svg?style=flat-square&label=DevDependencyStatus">
+  </a>
+  <a href="http://slack.neos.io">
+    <img alt="Chat on slack" src="http://slack.neos.io/badge.svg?style=flat-square">
+  </a>
+  <a href="https://discuss.neos.io/">
+    <img alt="Discuss in our forum" src="https://img.shields.io/badge/forum-Discourse-39c6ff.svg?style=flat-square">
+  </a>
+  <a href="https://twitter.com/neoscms">
+    <img alt="Follow neoscms on Twitter" src="https://img.shields.io/twitter/follow/neoscms.svg?label=follow+neoscms&style=flat-square">
+  </a>
+</p>
 
 > ESLint shareable config based on XO with a 4-space indent for the neos project.
 
