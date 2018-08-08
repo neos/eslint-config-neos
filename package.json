@@ -9,7 +9,7 @@
     "jest": "jest index.spec.js"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^8.1.2",
     "babel-preset-es2015": "^6.24.1",
     "eslint": "^4.17.0",
@@ -20,7 +20,7 @@
     "eslint": "^4.5.0"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.1",
+    "babel-eslint": "^8.2.6",
     "eslint-config-xo-react": "^0.16.0",
     "eslint-config-xo-space": "^0.17.0",
     "eslint-plugin-babel": "^4.1.2",
