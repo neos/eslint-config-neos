@@ -21,8 +21,8 @@
   },
   "dependencies": {
     "babel-eslint": "^8.2.6",
-    "eslint-config-xo-react": "^0.16.0",
-    "eslint-config-xo-space": "^0.17.0",
+    "eslint-config-xo-react": "^0.17.0",
+    "eslint-config-xo-space": "^0.20.0",
     "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
