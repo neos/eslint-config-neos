@@ -12,5 +12,5 @@ before_install:
   - export PATH="$HOME/.yarn/bin:$PATH"
 install:
   - yarn cache clean
-  - yarn install --production --ignore-scripts --prefer-offline
+  - yarn install --ignore-scripts --prefer-offline
   - yarn global add jest-cli
