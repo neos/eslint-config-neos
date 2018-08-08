@@ -9,6 +9,5 @@ before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
   - export PATH="$HOME/.yarn/bin:$PATH"
 install:
-  - yarn install
-before_script:
-  - npm prune
+  - yarn cache clean
+  - yarn install --production --ignore-scripts --prefer-offline
