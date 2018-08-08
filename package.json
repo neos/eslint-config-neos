@@ -4,8 +4,8 @@
   "main": "./index.js",
   "version": "2.1.4",
   "scripts": {
-    "test": "yarn run jest --coverage",
-    "test:watch": "yarn run jest --watch"
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
