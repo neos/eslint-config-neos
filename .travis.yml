@@ -1,11 +1,16 @@
 sudo: false
 language: node_js
+node_js:
+  - "8"
 cache:
   directories:
     - node_modules
 notifications:
   email: false
+before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash
+  - export PATH="$HOME/.yarn/bin:$PATH"
 install:
-  - yarn install
-before_script:
-  - npm prune
+  - yarn cache clean
+  - yarn install --ignore-scripts --prefer-offline
+  - yarn global add jest-cli
