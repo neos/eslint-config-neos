@@ -2,6 +2,11 @@
 
 module.exports = {
   parser: 'babel-eslint',
+  parserOptions: {
+    ecmaFeatures: {
+      legacyDecorators: true
+    }
+  },
   plugins: [
       'babel',
       'react',
@@ -20,7 +25,6 @@ module.exports = {
     // After eslint 3.3 lot of rules has changed or was introduced
     'no-unused-vars': 'error',
     'capitalized-comments': 'off',
-    'new-cap': 'warn',
     'quote-props': 'off',
     'no-warning-comments': 'off',
     'func-names': 'off',
@@ -31,6 +35,7 @@ module.exports = {
     'prefer-promise-reject-errors': ['warn', {'allowEmptyReject': true}],
     'no-useless-return': 'warn',
     'no-self-assign': 'warn',
+    'camelcase': ['error', {allow: ["^UNSAFE_"]}],
 
     //
     // Disable rules which aren't that important for us as a team.
