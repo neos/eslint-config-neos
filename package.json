@@ -2,7 +2,7 @@
   "name": "@neos-project/eslint-config-neos",
   "description": "ESLint shareable config based on XO with a 4-space indent for the Neos project.",
   "main": "./index.js",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "scripts": {
     "test": "jest --coverage --runInBand",
     "test:watch": "jest --watch --runInBand"
