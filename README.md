@@ -7,14 +7,11 @@
   <a href="https://www.npmjs.com/package/prettier">
     <img alt="npm version" src="https://img.shields.io/npm/v/prettier.svg?style=flat-square">
   </a>
+  <a href="https://snyk.io/test/github/neos/eslint-config-neos?targetFile=package.json">
+      <img src="https://snyk.io/test/github/neos/eslint-config-neos/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/neos/eslint-config-neos?targetFile=package.json" style="max-width:100%;">
+  </a>
   <a href="https://david-dm.org/neos/eslint-config-neos">
     <img alt="Dependency Status" src="https://david-dm.org/neos/eslint-config-neos.svg?style=flat-square&label=DependencyStatus">
-  </a>
-  <a href="https://david-dm.org/neos/eslint-config-neos">
-    <img alt="Peer Status" src="https://david-dm.org/neos/eslint-config-neos/peer-status.svg?style=flat-square&label=Peer">
-  </a>
-  <a href="https://david-dm.org/neos/eslint-config-neos">
-    <img alt="Dev Dependency Status" src="https://david-dm.org/neos/eslint-config-neos/dev-status.svg?style=flat-square&label=DevDependencyStatus">
   </a>
   <a href="http://slack.neos.io">
     <img alt="Chat on slack" src="http://slack.neos.io/badge.svg?style=flat-square">
