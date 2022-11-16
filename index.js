@@ -36,6 +36,14 @@ module.exports = {
     'no-useless-return': 'warn',
     'no-self-assign': 'warn',
     'camelcase': ['error', {allow: ["^UNSAFE_"]}],
+    'semi': [0, 'always'],
+    "comma-dangle": ["error", {
+        'arrays': 'never',
+        'objects': 'never',
+        'imports': 'never',
+        'exports': 'never',
+        'functions': 'ignore'
+    }],
 
     //
     // Disable rules which aren't that important for us as a team.
