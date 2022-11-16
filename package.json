@@ -2,13 +2,14 @@
   "name": "@neos-project/eslint-config-neos",
   "description": "ESLint shareable config based on XO with a 4-space indent for the Neos project.",
   "main": "./index.js",
-  "version": "2.5.1",
+  "version": "2.6.0",
   "scripts": {
     "test": "jest --coverage --runInBand",
     "test:watch": "jest --watch --runInBand"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/preset-env": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
@@ -22,6 +23,8 @@
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.19.1",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-react": "^7.18.6",
     "eslint-config-xo-react": "^0.17.0",
     "eslint-config-xo-space": "^0.20.0",
     "eslint-plugin-babel": "^5.3.0",
